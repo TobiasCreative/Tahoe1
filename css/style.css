@@ -26,12 +26,7 @@ h3 {
   font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 }
 
-span {
-  position: relative;
-  top: 50px;
-  text-shadow: 0 1px 2px rgba(0,0,0,.8);
 
-}
 
 h1 {  
   font-size: 9.625em; /* 90px/16px  */
@@ -43,8 +38,7 @@ h1 {
   margin: 12px;
   letter-spacing: 2px;
   text-align: center;
-  position: relative;
-  top: 40px;
+ 
 
 }
 
@@ -102,20 +96,27 @@ a:active {
 
 /* Main Styles --------------------- */
 
+
+.navimage img {
+  background-color:;
+ float: left;
+position: relative;
+left: 0px;
+ }
+
 .nav {
-  
-  
   background: linear-gradient(white, transparent 135%);
   padding-top: 1px;
   padding-bottom: 1px;
   height: 60px;
   position: relative;
   bottom: 170px;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+
   
-    
-
-
 }
+
+
  /*VERSION 1*/
 /*.nav ul {
     
@@ -132,22 +133,23 @@ a:active {
   width: 450px;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right:;
   margin-bottom: 5px;
   padding: 0;
   text-align: center;
   position: relative;
   bottom: 21px;
-  height: 40px;
+  height: 60px;
   border-radius: 5px;
+  
 
 }
 
 .nav ul li {
-  font-size: 1.5em;
+  font-size: 1.6em;
   display: inline;
   background-color: ;
-  padding: .89%;
+  padding: .99%;
   height: 55px;
 }
 
@@ -160,7 +162,8 @@ a:active {
   font-family: 'Abolition Regular';
   color: rgb(33, 52, 79);
   font-weight: normal;
-  padding-right: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .nav ul li a:hover {
@@ -185,23 +188,33 @@ a:active {
 
 .main-header {
   padding-top: 170px;
-  height: 880px;
+  height: 920px;
   background: linear-gradient(lightblue, transparent 35%),
-
               linear-gradient(0deg, #fff, transparent 55%),
               #ffa949 url('../img/space.jpg') no-repeat center;
   background-size: cover;
+  text-align: center;
   opacity: .9;
+  
+  
 }
 
 .title {
+  text-shadow: 0 1px 2px rgba(0,0,0,.8);
+  background-color: ;
   color: white;
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: .035em;
   font-weight: 200;
   border-bottom: 2px solid;
   padding-bottom: 10px;
-  text-align: center;
+ display:block;
+   width:350px;
+   height: 40px;
+   margin: 0 auto;
+   padding-bottom: 2px;
+   text-align: center;
+  
 }
 
 .intro {
@@ -316,13 +329,22 @@ a:active {
     border-top: none;
   }
   .main-header {
+
     max-height: 380px;
-    padding: 50px 25px 0;
+    padding: 50px 10px 10px 0;
   }
   .title {
     font-size: 1.3rem;
+    display:block;
     border: none;
+   width:300px;
+   height: 40px;
+   margin: 0px auto;
+   padding-bottom: 2px;
+   
   }
+
+ 
   
   h1 {
     font-size: 5rem;
